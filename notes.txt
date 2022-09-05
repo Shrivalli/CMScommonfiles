@@ -1,0 +1,215 @@
+.NET core:
+C# Basics
+ADO.NET
+Entity Framework Core
+MVC Core
+API core
+Azure 
+
+Visual Studio 2019/2022 - IDE (Integrated Development Environment)
+
+1. source code
+2. Compilation - syntax errors
+3. Build - all the reference/dependency files are linked
+4. Execution
+
+.NET framework - windows
+.NET core - windows, Mac, Linux
+
+Types of Applications in .NET core:
+1. Desktop Application - Console/Windows (GUI)
+2. Web Applications- 
+3. Mobile Applications- Xamarin
+
+A namespace is a collection of multiple classes, interface...
+A solution (.sln) is a collection of projects 
+csproj - project file - 
+
+VS(IDE) - .NET core SDK, C#(Language)
+
+.NET core 
+1. Base Class libraries - 
+2. Languages - C#, VB.NET,F#,J#
+3. CLR - Common Language Runtime - sdk - Garbage collector - GC algorithm
+
+C# source code - C# compiler - MSIL - CLR(Just in time compiler) - Native code - OS
+
+MSIL - Microsoft Intermediate Language
+
+Data Types in .NET core:
+1. Value Types- 
+int i=10;
+int , float, datetime, bool, decimal, single, enum, struct
+2. Reference Types - string, object, class, interface, delegates, 
+stores the address
+
+Type Conversions:
+1. Implicit conversion - int - float - 
+2. Explicit coversion - float - int - 
+Converting a value type to a reference type - Boxing
+Converting a reference type to a value type - UnBoxing
+
+Strongly referenced variables/Weakly referenced variables
+
+Managed Code - Codes which can be managed (adheres to the rules of CLS(Common Language
+Specification) 
+UnManaged Code - which are not managed by CLR
+
+object is the base data type for all the datatypes.
+
+OOPs Concepts:
+1. Class - User Defined Datatype - Generalization of an Entity
+2. Object - Instance of a class - Specialization 
+3. Data Encapsulation - Wrap the member variables and member functions into
+one entity called class
+4. Data Abstraction - Hiding Unnecessary details and projecting relevant details
+to users. - Access Specifiers
+1. Private - All member variables are private by default. Accessible with in the class
+2. Protected- Derived classes
+3. Internal - Accessible within the same namespace (all classes are by default internal)
+4. Public - Accessible outside the class.(Across namespaces)
+
+Properties - Access private variables outside teh class
+1. Accessor - Get
+2. Mutator - Set
+
+Whenever the condition has to be set before assigning a value to a variable
+we can use properties
+we can also create read only properties
+
+Constructor:
+1. Special method which has the same name as the class name.
+2. It is used to initalize the member variables.
+3. It is automatically invoked when we create an instance of a class.
+
+Note: Constructors should always be public 
+It will not have any return value 
+
+Destructors:
+1. ~classname()
+2. Finalize - automatically invoked 
+3. dispose() - resources has to be released.
+GC.Collect()
+
+Inheritance:
+
+Reusing the base class methods and variables
+
+When we reuse the base class method two things are very important:
+1. The base class method should have a 'virtual' keyword
+2. The derived class method should have an 'override' keyword
+
+Method with definition in the base class is called Virtual method
+Method without definition in the base class is called Abstract method. 
+
+A class which contains atleast one abstract method is called an abstract class.
+It can contain non abstract methods.
+Abstract classes cannot be instantiated and has to be inherited.
+
+Interface:
+Interface is a collection of abstract methods.
+
+Interface is an alternate solution to multiple inheritance.
+
+two scenarios:
+1. Interface inheriting another interface
+2. if the same method is available in two interfaces which is implemented by
+the same class
+add method is in both the interfaces.
+casio will implement both the interfaces. 
+
+Exceptions:
+Three types of Errors:
+1. Syntax error - compile time
+2. Logical error - debugging tools
+3. Runtime Error - cannot be rectified. they have to be handled
+
+Exception Handling:
+1. try - block which contains those set of statement which might cause the exception
+2. catch - exception handler 
+3. finally - This block will get executed irrespective of exception occurs or not.
+releasing the resources
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
